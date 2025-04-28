@@ -1,0 +1,8 @@
+First table:-transaction_detail
+create table bankfirst(accno int ,pwd int,status varchar(20) ,bal int ,date varchar(20));
+
+Second Table:-account holder details
+create table banksecond(accno int,nam varchar(20),fathername varchar(20),address varchar(30),pwd int,opt varchar(40),occ varchar(30),phone int,dob varchar(10));
+
+Third Table:-balance amount and account number
+create table bankthird(accno int ,bal int);
