@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+            
+
+        }
+        .sig{
+            background-color: white;
+            border: 1px solid white;
+            margin: auto;
+            margin-left: 200px;
+            margin-right: 200px;
+            width: 1000px;
+            height: 450px;
+            margin-top: 100px;
+            align-items: center;
+            text-align: center;
+            
+        }
+        .abc{
+            display: flex;
+        }
+        .first{
+            
+            width: 50%;
+            
+            height: 100%;
+        }
+        .second{
+           
+            width: 50%;
+            
+            height: 100%;
+        }
+        h2{
+            background-color: blue;
+            border: 1px solid white;
+            align-items: center;
+            margin: 30px auto;
+            
+
+            text-align: center;
+        }
+        h3{
+            color: brown;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="./sigup" method="post">
+        <div class="sig">
+            <h2>ATM MANAGEMENT SYSTEM</h2>
+            <h3>SIG UP</h3>
+            <div class="abc">
+                
+                <div class="first">
+                    
+                   <label>ACC NUM</label>
+                   <input type="text" name="acc"><br><br>
+                   <label>NAME</label>
+                   <input type="text" name="name"><br><br>
+                   <label>F NAME</label>
+                   <input type="text" name="fname"><br><br>
+                   <label>ADDRESS</label>
+                   <textarea name="add" id="" rows="3" ></textarea><br><br>
+                </div>
+                 <div class="second">
+                
+                    <label>PIN</label>
+                    <input type="text" name="pin"><br><br>
+                    <label>CHOOSEN</label>
+                    <SElect name="opt">
+                        <option value="">chose one</option>
+                        <option value="education">EDUCATION</option>
+                        <option value="bussiness">BUSSINESS</option>
+                        <option value="personal">PERSONAL</option>
+                        <option value="group">GROUP</option>
+                    </SElect><br><br>
+                    <label>OCCUPATION</label>
+                    <input type="text" name="occ"><br><br>
+                    <label>PHONE</label>
+                    <input type="text" name="phone"><br><br>
+                    <label>DATE OF BIRTH</label>
+                    <input type="text" name="dob"><br><br>
+
+                </div>
+            </div>
+            <button type="submit">Submit</button><br><br>
+            <a href="login.html">back</a>
+        
+
+        </div>
+        
+
+        
+    </form>
+</body>
+</html>
